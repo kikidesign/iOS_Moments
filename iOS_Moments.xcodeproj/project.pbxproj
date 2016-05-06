@@ -16,6 +16,9 @@
 		B385F1BD1CDB1FCB006A983A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B385F1BB1CDB1FCB006A983A /* LaunchScreen.storyboard */; };
 		B385F1C81CDB1FCB006A983A /* iOS_MomentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B385F1C71CDB1FCB006A983A /* iOS_MomentsTests.m */; };
 		B385F1D31CDB1FCB006A983A /* iOS_MomentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B385F1D21CDB1FCB006A983A /* iOS_MomentsUITests.m */; };
+		B385F1E21CDB24AC006A983A /* Moments.m in Sources */ = {isa = PBXBuildFile; fileRef = B385F1E11CDB24AC006A983A /* Moments.m */; };
+		B3E9E3901CDC80D4005FF7C0 /* icon_addphoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9E38E1CDC80D4005FF7C0 /* icon_addphoto@2x.png */; };
+		B3E9E3911CDC80D4005FF7C0 /* icon_addphoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9E38F1CDC80D4005FF7C0 /* icon_addphoto@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		B385F1CE1CDB1FCB006A983A /* iOS_MomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_MomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B385F1D21CDB1FCB006A983A /* iOS_MomentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_MomentsUITests.m; sourceTree = "<group>"; };
 		B385F1D41CDB1FCB006A983A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B385F1E01CDB24AC006A983A /* Moments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moments.h; sourceTree = "<group>"; };
+		B385F1E11CDB24AC006A983A /* Moments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moments.m; sourceTree = "<group>"; };
+		B3E9E38E1CDC80D4005FF7C0 /* icon_addphoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_addphoto@2x.png"; sourceTree = "<group>"; };
+		B3E9E38F1CDC80D4005FF7C0 /* icon_addphoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_addphoto@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +114,10 @@
 				B385F1AE1CDB1FCB006A983A /* AppDelegate.m */,
 				B385F1B01CDB1FCB006A983A /* ViewController.h */,
 				B385F1B11CDB1FCB006A983A /* ViewController.m */,
+				B3E9E38E1CDC80D4005FF7C0 /* icon_addphoto@2x.png */,
+				B3E9E38F1CDC80D4005FF7C0 /* icon_addphoto@3x.png */,
+				B385F1E01CDB24AC006A983A /* Moments.h */,
+				B385F1E11CDB24AC006A983A /* Moments.m */,
 				B385F1B31CDB1FCB006A983A /* Main.storyboard */,
 				B385F1B91CDB1FCB006A983A /* Assets.xcassets */,
 				B385F1BB1CDB1FCB006A983A /* LaunchScreen.storyboard */,
@@ -246,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E9E3901CDC80D4005FF7C0 /* icon_addphoto@2x.png in Resources */,
+				B3E9E3911CDC80D4005FF7C0 /* icon_addphoto@3x.png in Resources */,
 				B385F1BD1CDB1FCB006A983A /* LaunchScreen.storyboard in Resources */,
 				B385F1BA1CDB1FCB006A983A /* Assets.xcassets in Resources */,
 				B385F1B51CDB1FCB006A983A /* Main.storyboard in Resources */,
@@ -276,6 +289,7 @@
 				B385F1B21CDB1FCB006A983A /* ViewController.m in Sources */,
 				B385F1B81CDB1FCB006A983A /* iOS_Moments.xcdatamodeld in Sources */,
 				B385F1AF1CDB1FCB006A983A /* AppDelegate.m in Sources */,
+				B385F1E21CDB24AC006A983A /* Moments.m in Sources */,
 				B385F1AC1CDB1FCB006A983A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +514,7 @@
 				B385F1D91CDB1FCB006A983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B385F1DA1CDB1FCB006A983A /* Build configuration list for PBXNativeTarget "iOS_MomentsTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +523,7 @@
 				B385F1DC1CDB1FCB006A983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B385F1DD1CDB1FCB006A983A /* Build configuration list for PBXNativeTarget "iOS_MomentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +532,7 @@
 				B385F1DF1CDB1FCB006A983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
